@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[${1:"${2:method name}"}: function( ${3:params} ) {
+	<content><![CDATA[
+${1:'${2:method name}'}: function( ${3:params} ) {
 	$0
 }${4:,}]]></content>
 	<tabTrigger>objfun</tabTrigger>

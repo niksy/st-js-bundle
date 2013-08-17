@@ -1,8 +1,9 @@
 <snippet>
-	<content><![CDATA[var ${1:method name} = function( ${2:params} ) {
+	<content><![CDATA[
+function() {
 	${0:$TM_SELECTED_TEXT}
 };]]></content>
 	<tabTrigger>fun</tabTrigger>
 	<scope>source.js</scope>
-	<description>Function: named</description>
+	<description>Function: anonymous</description>
 </snippet>
