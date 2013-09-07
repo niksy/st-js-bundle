@@ -1,6 +1,6 @@
 # JS bundle for Sublime Text
 
-Based on original JS bundle. Syntax highlighting is either default one or [JavaScriptNext](https://github.com/Benvie/JavaScriptNext.tmLanguage).
+BBased on [JavaScriptNext bundle by Brandon Benvie](https://github.com/Benvie/JavaScriptNext.tmLanguage).
 
 ## Contributions
 
