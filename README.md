@@ -1,6 +1,6 @@
 # JS bundle for Sublime Text
 
-BBased on [JavaScriptNext bundle by Brandon Benvie](https://github.com/Benvie/JavaScriptNext.tmLanguage).
+Based on [JavaScriptNext bundle by Brandon Benvie](https://github.com/Benvie/JavaScriptNext.tmLanguage).
 
 ## Contributions
 
