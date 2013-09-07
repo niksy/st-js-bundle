@@ -926,7 +926,7 @@
                 },
                 {
                     "match": "\\b(debugger)\\b",
-                    "name": "keyword.other.js"
+                    "name": "keyword.control.debug.js"
                 }
             ]
         },

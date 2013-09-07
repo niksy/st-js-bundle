@@ -1492,7 +1492,7 @@
 					<key>match</key>
 					<string>\b(debugger)\b</string>
 					<key>name</key>
-					<string>keyword.other.js</string>
+					<string>keyword.control.debug.js</string>
 				</dict>
 			</array>
 		</dict>
