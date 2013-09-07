@@ -921,7 +921,7 @@
                     "name": "entity.name.type.object.js.firebug"
                 },
                 {
-                    "match": "\\.(warn|info|log|error|time|timeEnd|assert)\\b",
+                    "match": "(warn|info|log|error|time|timeEnd|assert)\\b",
                     "name": "support.function.js.firebug"
                 },
                 {
