@@ -15,10 +15,10 @@
             "include": "#support"
         },
         {
-            "include": "#core"
+            "include": "#special"
         },
         {
-            "include": "#special"
+            "include": "#core"
         },
         {
             "include": "#sugar"

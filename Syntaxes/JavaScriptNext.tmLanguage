@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#core</string>
+			<string>#special</string>
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#special</string>
+			<string>#core</string>
 		</dict>
 		<dict>
 			<key>include</key>
