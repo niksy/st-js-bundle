@@ -2,7 +2,7 @@
 	<content><![CDATA[
 var ${1:method name} = function( ${2:params} ) {
 	${0:$TM_SELECTED_TEXT}
-};]]></content>
+}${3:;}]]></content>
 	<tabTrigger>fun</tabTrigger>
 	<scope>source.js</scope>
 	<description>Function: named</description>

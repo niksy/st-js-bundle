@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-for (var ${1:prop} in ${2:obj}) {
-	if (${2:obj}.hasOwnProperty(${1:prop})) {
+for ( var ${1:prop} in ${2:obj} ) {
+	if ( ${2:obj}.hasOwnProperty( ${1:prop} ) ) {
 		${3:${2:obj}.${1:prop};}
 	}
 }]]></content>
-	<tabTrigger>forin</tabTrigger>
+	<tabTrigger>forobj</tabTrigger>
 	<scope>source.js</scope>
 	<description>Iteration: object</description>
 </snippet>
