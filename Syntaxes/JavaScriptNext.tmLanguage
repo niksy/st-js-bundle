@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#core</string>
+			<string>#special</string>
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#special</string>
+			<string>#core</string>
 		</dict>
 	</array>
 	<key>repository</key>
@@ -1446,9 +1446,9 @@
   (?&lt;=
     [\[,=(:?]|
     ^|&amp;&amp;|
-    return
+    return|\s|\t
   )\s*
-  (/)
+  ((/))
   (?![/*+{}?]|$)</string>
 					<key>beginCaptures</key>
 					<dict>
@@ -1666,7 +1666,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\.(warn|info|log|error|time|timeEnd|assert)\b</string>
+					<string>(warn|info|log|error|time|timeEnd|assert)\b</string>
 					<key>name</key>
 					<string>support.function.js.firebug</string>
 				</dict>
@@ -1674,7 +1674,7 @@
 					<key>match</key>
 					<string>\b(debugger)\b</string>
 					<key>name</key>
-					<string>keyword.other.js</string>
+					<string>keyword.control.debug.js</string>
 				</dict>
 			</array>
 		</dict>
