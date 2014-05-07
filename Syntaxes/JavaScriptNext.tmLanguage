@@ -713,6 +713,20 @@
 						</dict>
 						<dict>
 							<key>begin</key>
+							<string>\.([_$a-zA-Z][_$\w]*)</string>
+							<key>beginCaptures</key>
+							<dict>
+								<key>1</key>
+								<dict>
+									<key>name</key>
+									<string>entity.name.function.js</string>
+								</dict>
+							</dict>
+							<key>end</key>
+							<string>\s*</string>
+						</dict>
+						<dict>
+							<key>begin</key>
 							<string>\b(function(?:\s*\*|(?=\s|[(])))(?:\s*([a-zA-Z_$][_$\w]*))?\s*</string>
 							<key>beginCaptures</key>
 							<dict>
