@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-var ${1:method name} = function(${2: ${3:params} }) {
+function ${1:fnName} (${3: ${2:params} }) {
 	${0:$TM_SELECTED_TEXT}
-}${4:;}]]></content>
-	<tabTrigger>fun</tabTrigger>
+}]]></content>
+	<tabTrigger>fnn</tabTrigger>
 	<scope>source.js</scope>
 	<description>Function: named</description>
 </snippet>

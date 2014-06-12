@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+var instance;
+
+function ${1:SingletonName} () {
+
+	if (instance) {
+		return instance;
+	}
+
+	instance = this;
+
+	$0
+
+}]]></content>
+	<tabTrigger>singleton</tabTrigger>
+	<scope>source.js</scope>
+	<description>Singleton</description>
+</snippet>

@@ -1,8 +1,10 @@
 <snippet>
 	<content><![CDATA[
-(function () {
+;(function (${4: ${3:args} }) {
+
 	$0
-})();]]></content>
+
+})(${2: ${1:args} });]]></content>
 	<tabTrigger>iife</tabTrigger>
 	<scope>source.js</scope>
 	<description>IIFE</description>

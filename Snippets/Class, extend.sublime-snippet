@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+function ${1:SubClass} () {
+	${1:SubClass}._super.constructor.apply(this, arguments);
+	${0}
+}
+function ${1:SubClass}Temp () {}
+${1:SubClass}Temp.prototype = ${2:ParentClass}.prototype;
+${1:SubClass}.prototype = new ${1:SubClass}Temp();
+${1:SubClass}.prototype.constructor = ${1:SubClass};
+${1:SubClass}._super = ${2:ParentClass}.prototype;]]></content>
+	<tabTrigger>exc</tabTrigger>
+	<scope>source.js</scope>
+	<description>Class: extend</description>
+</snippet>
