@@ -1,14 +1,14 @@
 <snippet>
 	<content><![CDATA[
-var instance;
+var single;
 
 function ${1:SingletonName} () {
 
-	if (instance) {
-		return instance;
+	if (single) {
+		return single;
 	}
 
-	instance = this;
+	single = this;
 
 	$0
 
