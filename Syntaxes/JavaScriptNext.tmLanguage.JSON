@@ -6,7 +6,7 @@
     ],
     "firstLineMatch": "^#!/.*\\b(node|js)",
     "keyEquivalent": "^~J",
-    "name": "JavaScript Next",
+    "name": "JavaScript",
     "patterns": [
         {
             "include": "#comments"
