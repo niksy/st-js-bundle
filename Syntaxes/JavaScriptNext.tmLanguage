@@ -2340,7 +2340,7 @@
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>(/)([gimy]*)</string>
+					<string>[^\\](/)([gimy]*)</string>
 					<key>endCaptures</key>
 					<dict>
 						<key>1</key>
