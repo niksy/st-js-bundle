@@ -356,6 +356,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#curly-brackets</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#comments</string>
 						</dict>
 					</array>
