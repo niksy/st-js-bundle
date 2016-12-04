@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+function ${1:fnName }(${3: ${2:params} }) {
+	${0:$TM_SELECTED_TEXT}
+}${4:,}]]></content>
+	<tabTrigger>fn</tabTrigger>
+	<scope>source.js</scope>
+	<description>Function: declaration</description>
+</snippet>

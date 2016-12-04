@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-function (${2: ${1:params} }) {
+(${2: ${1:params} }) => {
 	${0:$TM_SELECTED_TEXT}
 }${3:,}]]></content>
-	<tabTrigger>fn</tabTrigger>
+	<tabTrigger>afn</tabTrigger>
 	<scope>source.js</scope>
-	<description>Function: anonymous</description>
+	<description>Function: arrow</description>
 </snippet>
