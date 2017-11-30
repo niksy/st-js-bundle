@@ -364,6 +364,10 @@
 						</dict>
 						<dict>
 							<key>include</key>
+							<string>#square-brackets</string>
+						</dict>
+						<dict>
+							<key>include</key>
 							<string>#comments</string>
 						</dict>
 					</array>
