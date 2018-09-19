@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-for ( var i = 0, ${1:array}Length = ${1:array}.length; i < ${1:array}Length; i++ ) {
-	${2:${1:array}[i]}$0
-}]]></content>
-	<tabTrigger>forarr</tabTrigger>
-	<scope>source.js</scope>
-	<description>Iteration: array</description>
-</snippet>
